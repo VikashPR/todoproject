@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="stylesheet" href="todos1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>todos</h1>
+        <div class="every">
+            <div id="app">
+                <button id="now" style="width: 35px; height: 25px;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/60/60995.png" alt="Select All" style="width: 100%; height: 100%;" />
+                </button>
+                
+                <input type="text" id="todoInput" placeholder="What needs to be done?">
+                <ul id="todoList"></ul>
+            </div>
+            <div class="display-data">
+                <p id="countsDisplay"></p>
+                <div class="buttons" id="buttonContainer">
+                    <button id="allBtn" style="display: none;">All</button>
+                    <button id="activeBtn" style="display: none;">Active</button>
+                    <button id="completedBtn" style="display: none;">Completed</button>
+                    <button id="deleteCheckedBtn" style="display: none;">Clear Completed</button>
+                </div>
+            </div>
+        </div>
+        <div class="data">
+            <p>Double-click to edit a todo<br>
+                Created by yash ahlawat<br>
+                Part of yash project stack</p>
+        </div>
+        <script src="todos1.js"></script>
+    </div>
+</body>
+</html>
+``
